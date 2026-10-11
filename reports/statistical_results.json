@@ -1,0 +1,26 @@
+{
+  "unit": "one property; median observed quote over available adult configurations",
+  "correlations": {
+    "center_km": {
+      "spearman_rho": -0.23675003349440996,
+      "p_value": 0.0023443618919291014,
+      "properties": 163
+    },
+    "reviews": {
+      "spearman_rho": -0.15782407219265832,
+      "p_value": 0.044211070760349414,
+      "properties": 163
+    },
+    "amenity_mentions": {
+      "spearman_rho": -0.08052809738378457,
+      "p_value": 0.30684609408783103,
+      "properties": 163
+    }
+  },
+  "district_kruskal_wallis": {
+    "statistic": 8.743174137473726,
+    "p_value": 0.18854526485659093,
+    "groups_with_at_least_three_properties": 7
+  },
+  "interpretation": "Exploratory associations; unadjusted p-values, selected search sample, no causal identification."
+}

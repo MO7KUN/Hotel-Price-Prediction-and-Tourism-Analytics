@@ -1,0 +1,22 @@
+{
+  "record_url": "https://zenodo.org/api/records/17560799",
+  "doi": "10.5281/zenodo.17560799",
+  "title": "Alojamientos y precios en Booking.com (Barcelona, 2026)",
+  "creators": [
+    {
+      "name": "Silvia",
+      "affiliation": null
+    },
+    {
+      "name": "Óscar",
+      "affiliation": null
+    }
+  ],
+  "license": "cc-by-nc-sa-4.0",
+  "publication_date": "2025-11-08",
+  "download_url": "https://zenodo.org/api/records/17560799/files/resultados_booking_20251108_175437.csv/content",
+  "downloaded_at_utc": "2026-10-11T02:47:16.276492+00:00",
+  "source_md5": "md5:c9fb84ab968a8ca5fcf1576ceb45865a",
+  "sha256": "f6826125121cb02f439bd03cba12d6c664b86c2ccdf4fad1d82824e16f546341",
+  "bytes": 775323
+}

@@ -1,0 +1,76 @@
+{
+  "source_rows": 450,
+  "excluded_room_count_mismatch": 75,
+  "duplicate_search_rows_removed": 0,
+  "excluded_multiroom_rows": 150,
+  "retained_rows": 225,
+  "properties": 163,
+  "districts": 9,
+  "checkin_dates": [
+    "2026-01-24"
+  ],
+  "checkout_dates": [
+    "2026-01-25"
+  ],
+  "adults": [
+    1,
+    2,
+    3
+  ],
+  "children": [
+    1
+  ],
+  "rooms": [
+    1
+  ],
+  "nights": [
+    1
+  ],
+  "child_ages": [
+    "0"
+  ],
+  "price_summary_eur": {
+    "count": 225.0,
+    "mean": 170.68,
+    "std": 75.68039470600786,
+    "min": 70.0,
+    "5%": 96.2,
+    "25%": 126.0,
+    "50%": 152.0,
+    "75%": 196.0,
+    "95%": 303.7999999999999,
+    "max": 672.0
+  },
+  "missing_percent": {
+    "adults": 0.0,
+    "distance_center_km": 0.0,
+    "distance_beach_km": 54.667,
+    "beach_distance_missing": 0.0,
+    "log_review_count": 0.0,
+    "sustainability_certification": 0.0,
+    "description_missing": 0.0,
+    "mentions_wifi": 0.0,
+    "mentions_pool": 0.0,
+    "mentions_spa": 0.0,
+    "mentions_fitness": 0.0,
+    "mentions_parking": 0.0,
+    "mentions_restaurant": 0.0,
+    "mentions_air_conditioning": 0.0,
+    "mentions_breakfast": 0.0,
+    "mentions_pets": 0.0,
+    "district": 0.0
+  },
+  "unavailable_features": [
+    "official_star_category",
+    "guest_review_score",
+    "room_type",
+    "tax_inclusion",
+    "cancellation_policy",
+    "multiple_stay_dates"
+  ],
+  "group_sizes": {
+    "1": 114,
+    "2": 36,
+    "3": 13
+  }
+}

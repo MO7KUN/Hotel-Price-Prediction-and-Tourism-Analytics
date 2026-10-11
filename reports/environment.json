@@ -1,0 +1,15 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "pandas": "3.0.1",
+    "numpy": "2.5.4",
+    "scikit-learn": "1.9.1",
+    "xgboost": "3.4.1",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.2",
+    "requests": "2.34.2",
+    "beautifulsoup4": "4.15.0",
+    "joblib": "1.6.0",
+    "pytest": "9.1.1"
+  }
+}

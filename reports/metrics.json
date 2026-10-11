@@ -1,0 +1,168 @@
+{
+  "selected_model": "xgboost",
+  "features": [
+    "adults",
+    "distance_center_km",
+    "distance_beach_km",
+    "beach_distance_missing",
+    "log_review_count",
+    "sustainability_certification",
+    "description_missing",
+    "mentions_wifi",
+    "mentions_pool",
+    "mentions_spa",
+    "mentions_fitness",
+    "mentions_parking",
+    "mentions_restaurant",
+    "mentions_air_conditioning",
+    "mentions_breakfast",
+    "mentions_pets",
+    "district"
+  ],
+  "search": {
+    "random_forest": {
+      "best_params": {
+        "regressor__model__max_depth": null,
+        "regressor__model__min_samples_leaf": 2
+      },
+      "cv_mae_eur": 34.705722244803155
+    },
+    "gradient_boosting": {
+      "best_params": {
+        "regressor__model__l2_regularization": 10,
+        "regressor__model__max_leaf_nodes": 15
+      },
+      "cv_mae_eur": 39.321306734898556
+    },
+    "xgboost": {
+      "best_params": {
+        "regressor__model__max_depth": 2,
+        "regressor__model__reg_lambda": 1
+      },
+      "cv_mae_eur": 34.84631474812826
+    }
+  },
+  "validation": {
+    "random_forest": {
+      "n": 38,
+      "mae_eur": 37.04184134705528,
+      "rmse_eur": 52.05705411178085,
+      "r2": 0.19021254844288038,
+      "median_ape_percent": 16.162487887851306,
+      "log_mae": 0.22347577149248063
+    },
+    "gradient_boosting": {
+      "n": 38,
+      "mae_eur": 39.06967820941454,
+      "rmse_eur": 51.67469717171309,
+      "r2": 0.20206457331717598,
+      "median_ape_percent": 18.669365074283267,
+      "log_mae": 0.2362299254686326
+    },
+    "xgboost": {
+      "n": 38,
+      "mae_eur": 35.639653055291426,
+      "rmse_eur": 48.48896294114214,
+      "r2": 0.2974169658724375,
+      "median_ape_percent": 16.520600236139078,
+      "log_mae": 0.2121603273749747
+    }
+  },
+  "test": {
+    "selected": {
+      "n": 33,
+      "mae_eur": 51.146586100260414,
+      "rmse_eur": 99.85071857406705,
+      "r2": 0.11378226386547108,
+      "median_ape_percent": 12.507186701268324,
+      "log_mae": 0.2227195558325004
+    },
+    "global_median": {
+      "n": 33,
+      "mae_eur": 69.06060606060606,
+      "rmse_eur": 119.67493851718041,
+      "r2": -0.2730471069865965,
+      "median_ape_percent": 24.786324786324787,
+      "log_mae": 0.3330250418345148
+    },
+    "district_occupancy_median": {
+      "n": 33,
+      "mae_eur": 50.5,
+      "rmse_eur": 91.07876211878876,
+      "r2": 0.26265237297980104,
+      "median_ape_percent": 18.86120996441281,
+      "log_mae": 0.22358785810054824
+    }
+  },
+  "splits": {
+    "train": {
+      "quotes": 132,
+      "properties": 97
+    },
+    "validation": {
+      "quotes": 38,
+      "properties": 25
+    },
+    "calibration": {
+      "quotes": 22,
+      "properties": 16
+    },
+    "test": {
+      "quotes": 33,
+      "properties": 25
+    }
+  },
+  "interval": {
+    "nominal_coverage": 0.9,
+    "calibration_quotes": 22,
+    "calibration_properties": 16,
+    "log_radius": 0.4208060936641216,
+    "test_coverage": 0.8484848484848485,
+    "median_width_eur": 141.35610961914062,
+    "calibration_unit": "maximum absolute log residual per property",
+    "test_property_coverage": 0.8
+  },
+  "seed": 42,
+  "test_mae_property_bootstrap_95ci_eur": [
+    27.41447275728793,
+    86.96077474714158
+  ],
+  "clustering": {
+    "k": 3,
+    "silhouette_by_k": {
+      "2": 0.4887155091827155,
+      "3": 0.45505584655550935,
+      "4": 0.3822040862160448,
+      "5": 0.3107366974495951,
+      "6": 0.29418915832326337
+    },
+    "best_diagnostic_k": 2,
+    "standardized_feature_weights": {
+      "log_median_price": 2.0,
+      "distance_center_km": 0.5,
+      "log_review_count": 0.25,
+      "amenity_mentions_count": 0.5
+    },
+    "label_map": {
+      "0": "Economy",
+      "2": "Mid-range",
+      "1": "Upscale"
+    },
+    "features": [
+      "log_median_price",
+      "distance_center_km",
+      "log_review_count",
+      "amenity_mentions_count"
+    ],
+    "training_properties": 122,
+    "pca_explained_variance": [
+      0.8773123585869418,
+      0.06845502451600394
+    ],
+    "counts": {
+      "Economy": 89,
+      "Mid-range": 62,
+      "Upscale": 12
+    }
+  }
+}

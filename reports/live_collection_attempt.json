@@ -1,0 +1,10 @@
+{
+  "attempted_at_utc": "2026-10-11T02:52:24.962435+00:00",
+  "url": "https://www.booking.com/searchresults.html?ss=Barcelona&checkin=2026-11-14&checkout=2026-11-15&group_adults=2&no_rooms=1&group_children=1&age=0&selected_currency=EUR",
+  "user_agent": "HotelPriceResearch/1.0 (academic; single cached search request)",
+  "robots_status": 200,
+  "robots_allowed": true,
+  "http_status": 202,
+  "status": "unavailable",
+  "reason": "No Booking property cards: JavaScript rendering, a block or a changed layout"
+}

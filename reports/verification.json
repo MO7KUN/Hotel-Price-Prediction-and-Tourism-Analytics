@@ -1,0 +1,32 @@
+{
+  "verified_at_utc": "2026-10-11T03:11:29.778134+00:00",
+  "pytest": {
+    "passed": 21,
+    "failed": 0,
+    "command": "python -m pytest -q"
+  },
+  "syntax_check": "python -m compileall -q src: passed",
+  "readme_relative_links": "all resolve",
+  "notebook": "valid nbformat 4 JSON; all Python code cells parse (not executed)",
+  "figures": {
+    "png": 12,
+    "svg": 12
+  },
+  "cohort": {
+    "quotes": 225,
+    "properties": 163,
+    "all_one_room_one_night": true
+  },
+  "property_splits": "163 unique properties; no overlap across train, validation, calibration and test",
+  "inference": "Reloaded model matches committed held-out example prediction",
+  "dashboard_browser_checks": {
+    "adults_2_rows": 75,
+    "search_Barcelo_Sants_rows": 1,
+    "reset_rows": 225,
+    "console_errors": 0
+  },
+  "model_sha256": {
+    "artifacts\\positioning.joblib": "fb936981219256ae1c47f6888be35482725af09fed09a4a98cae87a85836e0ab",
+    "artifacts\\room_price.joblib": "70ebbbcd08f4ad41807b19183057c5fab2ebfd1a09f2a24d48e54bc34d3ba6fc"
+  }
+}
