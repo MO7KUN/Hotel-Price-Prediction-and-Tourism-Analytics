@@ -36,8 +36,6 @@ python -m src.predict --input examples/hotel.csv --output predictions.csv
 python -m http.server 8000
 ```
 
-Open **[http://localhost:8000/dashboard/index.html](http://localhost:8000/dashboard/index.html)**. The dashboard is also a self-contained HTML file that opens directly in a browser. It embeds real quote rows and runs without an API key, backend, external chart library or network requests.
-
 To reproduce collection, cleaning, training, figures, documentation and dashboard:
 
 ```bash
