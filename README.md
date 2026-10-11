@@ -1,5 +1,11 @@
 # Hotel Price Prediction and Tourism Analytics
 
+## Web interface
+
+[Open Hotel Price Predictions](https://MO7KUN.github.io/Hotel-Price-Prediction-and-Tourism-Analytics/)
+
+The GitHub Pages project link automatically opens the interactive tourism dashboard. Filters and visualizations run in your browser.
+
 **Analyse des hôtels et prédiction des tarifs touristiques**
 
 A complete, executed educational data-science project using a licensed **Booking.com research snapshot**: automatic collection, data-quality checks, room-price regression, Random Forest / Gradient Boosting / XGBoost tuning, K-Means positioning, statistical analysis and an interactive tourism dashboard.
