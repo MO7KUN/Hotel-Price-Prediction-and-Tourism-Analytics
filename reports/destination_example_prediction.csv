@@ -1,0 +1,2 @@
+country,city,currency,property_id,checkin,checkout,rooms,children,child_ages,adults,distance_center_km,review_count,amenity_mentions_count,prediction_per_night,prediction_currency
+ES,Barcelona,EUR,example,2026-01-24,2026-01-25,1,1,0,2,2.7,1000,3,153.059455392424,EUR

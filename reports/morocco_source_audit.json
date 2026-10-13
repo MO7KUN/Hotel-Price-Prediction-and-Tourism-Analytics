@@ -1,0 +1,17 @@
+{
+  "checked_at_utc": "2026-10-13",
+  "source_url": "https://github.com/OumaimaHourrane/MA_Open_Datasets/tree/main/Booking_ma/Hotels",
+  "download_url": "https://raw.githubusercontent.com/OumaimaHourrane/MA_Open_Datasets/main/Booking_ma/Hotels/Hotels.csv",
+  "sha256": "186df345735dde50cb2da25c5a7ac46b36dd01fcb1fd331a0a445e4a96843a47",
+  "actual_columns": [
+    "title",
+    "location",
+    "distance",
+    "description",
+    "verdict",
+    "rating",
+    "experience"
+  ],
+  "status": "not_used",
+  "reason": "No observed price column; cannot train a price model. Not redistributed."
+}

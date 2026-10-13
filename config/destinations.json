@@ -1,0 +1,17 @@
+{
+  "morocco_shortcuts": ["Agadir", "Al Hoceima", "Asilah", "Azrou", "Beni Mellal", "Berkane", "Berrechid", "Boujdour", "Casablanca", "Chefchaouen", "Dakhla", "El Jadida", "Errachidia", "Essaouira", "Fes", "Figuig", "Guelmim", "Ifrane", "Kenitra", "Khemisset", "Khenifra", "Khouribga", "Ksar El Kebir", "Laayoune", "Larache", "Marrakech", "Martil", "Meknes", "Midelt", "Mohammedia", "Nador", "Ouarzazate", "Ouezzane", "Oujda", "Rabat", "Safi", "Sale", "Sefrou", "Settat", "Sidi Bennour", "Sidi Ifni", "Sidi Kacem", "Sidi Slimane", "Smara", "Tan-Tan", "Tangier", "Taounate", "Taourirt", "Taroudant", "Taza", "Temara", "Tetouan", "Tiznit", "Youssoufia", "Zagora"],
+  "global": [
+    {"country": "ES", "city": "Barcelona"},
+    {"country": "ES", "city": "Madrid"},
+    {"country": "FR", "city": "Paris"},
+    {"country": "GB", "city": "London"},
+    {"country": "IT", "city": "Rome"},
+    {"country": "TR", "city": "Istanbul"},
+    {"country": "AE", "city": "Dubai"},
+    {"country": "US", "city": "New York"},
+    {"country": "TH", "city": "Bangkok"},
+    {"country": "JP", "city": "Tokyo"}
+  ],
+  "aliases": {"marrakesh": "Marrakech", "fes": "Fes", "fez": "Fes", "tanger": "Tangier", "tangier": "Tangier", "kenitra": "Kenitra", "tetouan": "Tetouan", "sale": "Sale", "laayoune": "Laayoune"},
+  "note": "Moroccan names are shortcuts, not an exhaustive administrative inventory. Any Moroccan city can be entered. A destination requires observed room prices before prediction is enabled."
+}

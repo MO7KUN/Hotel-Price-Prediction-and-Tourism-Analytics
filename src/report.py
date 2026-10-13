@@ -112,6 +112,10 @@ def write_readme(m,audit,stats,imp,test,profiles):
     verdict=('The selected model improves on both tested simple baselines on this held-out sample.' if score['mae_eur']<baseline else 'The selected model does not beat every simple baseline on this held-out sample; the full comparison below is part of the result, not hidden.')
     text=f'''# Hotel Price Prediction and Tourism Analytics
 
+## Morocco and global destination explorer
+
+[Open destination explorer](dashboard/destinations.html). Any Moroccan city and ten selected global destinations can be entered. **Only Barcelona currently has observed price coverage.** Other cities need suitable hotel-price observations before predictions are enabled. See [data requirements and destination training](DESTINATIONS.md). The Barcelona analysis below remains a separate historical research study.
+
 **Analyse des hôtels et prédiction des tarifs touristiques**
 
 A complete, executed educational data-science project using a licensed **Booking.com research snapshot**: automatic collection, data-quality checks, room-price regression, Random Forest / Gradient Boosting / XGBoost tuning, K-Means positioning, statistical analysis and an interactive tourism dashboard.
