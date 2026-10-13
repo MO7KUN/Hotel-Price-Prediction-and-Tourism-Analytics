@@ -7,6 +7,9 @@ import pandas as pd
 from .model import validate_input
 
 def predict(frame,artifacts='artifacts'):
+    if 'country' in frame.columns or 'city' in frame.columns:
+        from .multicity import predict as destination_predict
+        return destination_predict(frame, artifacts)
     validate_input(frame)
     bundle=joblib.load(Path(artifacts)/'room_price.joblib')
     value=np.maximum(bundle['model'].predict(frame[bundle['features']]),0)
@@ -29,4 +32,5 @@ if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--input',required=True);parser.add_argument('--output',default='predictions.csv')
     parser.add_argument('--artifacts',default='artifacts');args=parser.parse_args()
     result=predict(pd.read_csv(args.input),args.artifacts);result.to_csv(args.output,index=False)
-    print(result[['prediction_eur','lower90_eur','upper90_eur']].to_string(index=False))
+    columns = ['prediction_per_night', 'prediction_currency'] if 'prediction_per_night' in result else ['prediction_eur','lower90_eur','upper90_eur']
+    print(result[columns].to_string(index=False))

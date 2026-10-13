@@ -1,6 +1,7 @@
 .venv/
 __pycache__/
 .pytest_cache/
+.pytest-work/
 data/raw/*
 !data/raw/.gitkeep
 .env

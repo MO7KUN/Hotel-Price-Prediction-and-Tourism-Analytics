@@ -4,7 +4,7 @@
 
 [Open Hotel Price Predictions](https://MO7KUN.github.io/Hotel-Price-Prediction-and-Tourism-Analytics/)
 
-The GitHub Pages project link automatically opens the interactive tourism dashboard. Filters and visualizations run in your browser.
+The project now opens the Morocco & global destination explorer. Any Moroccan city can be entered, alongside Barcelona, Madrid, Paris, London, Rome, Istanbul, Dubai, New York, Bangkok and Tokyo. **Only Barcelona currently has observed price coverage; other destinations require suitable hotel-price data before predictions are enabled.** See [destination coverage, data requirements and training](DESTINATIONS.md). The original Barcelona research dashboard remains available from the archive link.
 
 **Analyse des hôtels et prédiction des tarifs touristiques**
 
